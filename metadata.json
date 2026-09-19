@@ -1,0 +1,6 @@
+{
+  "name": "Sahara - Everyday Digital Companion",
+  "description": "A calm, voice-first digital companion designed specifically for seniors to manage health, bills, family messages, daily schedules, and scam protection in plain language.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
