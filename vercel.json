@@ -1,0 +1,14 @@
+{
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/api/sahara/assistant", "destination": "/api/sahara/assistant" },
+    { "source": "/api/sahara/scam-shield", "destination": "/api/sahara/scam-shield" },
+    { "source": "/api/sahara/simplify-document", "destination": "/api/sahara/simplify-document" },
+    { "source": "/api/sahara/simplify-medical", "destination": "/api/sahara/simplify-medical" },
+    { "source": "/api/sahara/explain-news", "destination": "/api/sahara/explain-news" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
